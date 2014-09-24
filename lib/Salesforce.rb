@@ -4,7 +4,6 @@ module Salesforce
 		:username => 'housingapp@breadforthecity.org',
 		# password, security token, client_id, and client_secret go here
 		# https://github.com/ejholmes/restforce#oauth-token-authentication
-        :client_id => '3MVG9GiqKapCZBwGfZUYdEUVISwUSdxm.e0b8ETaVZ9oODS.bIR1nUB2Qt2uc5j1GDdsxwEhI.xKaht.ywpR8
 
     @base_qry = 'SELECT Id, Name, FirstName__c, Middle_Name__c, LastName__c, 
     			 Race__c, DOB__c, SSN__c, Primary_Language__c, 
