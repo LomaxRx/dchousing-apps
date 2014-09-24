@@ -18,6 +18,7 @@ DchousingApps::Application.routes.draw do
   get "/dictionary", to: "dictionary#index"
 
   get 'onboarding', to: 'home#onboarding'
+  get '/salesforce', to: 'salesforce#index'
 
   root to: 'home#index'
 end
